@@ -12,6 +12,7 @@ public class Tile : MonoBehaviour
 
     public bool isClickable = true;
     public bool isOneTimeUse = false;
+    protected bool isClicked = false;
 
     public float timeCost;
 
@@ -28,18 +29,25 @@ public class Tile : MonoBehaviour
 
     void OnMouseUp()
     {
-        int maxMoveDistance = playerController.maxMoveDistance;
-        
-        // time coroutine
-        gameManager.rescueTime -= timeCost * stormFactor;
-        print(gameManager.rescueTime);
-        
-        if(isClickable && (Mathf.Abs(playerController.posX-tileX) <= maxMoveDistance && Mathf.Abs(playerController.posY-tileY) <= maxMoveDistance))
+        float maxMoveDistance = playerController.maxMoveDistance;
+
+        if (isClickable && Vector3.Distance(transform.position, new Vector3(playerController.posX, 0, playerController.posY)) <= maxMoveDistance)
+        {
+            // time coroutine
+            if(gameManager.isStormHappened)
+                gameManager.rescueTime -= timeCost * stormFactor;
+            else
+                gameManager.rescueTime -= timeCost;
+            print(gameManager.rescueTime);
+            
             StartCoroutine(playerController.MovePlayerTo(tileX, tileY));
+            isClicked = true;
+        }
     }
 
     private void OnMouseOver()
     {
-     //   print("isClickable: " + isClickable);
+        // Show properties of that tile
+        //print("isClickable: " + isClickable);
     }
 }

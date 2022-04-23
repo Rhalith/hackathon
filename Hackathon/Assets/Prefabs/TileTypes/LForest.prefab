@@ -113,4 +113,4 @@ MonoBehaviour:
   isClickable: 1
   isOneTimeUse: 0
   timeCost: 30
-  stormFactor: 1
+  stormFactor: 2

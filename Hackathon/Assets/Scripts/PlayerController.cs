@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public int maxMoveDistance = 1;
+    public float maxMoveDistance = 1f;
     public float movementSpeed = 5f;
     public int posX, posY;
 
