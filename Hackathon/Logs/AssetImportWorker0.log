@@ -5682,6 +5682,7 @@ Registering precompiled user dll's ...
 Registered in 0.002857 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
@@ -5690,11 +5691,13 @@ Mono: successfully reloaded assembly
 - Completed reload, in  0.980 seconds
 Domain Reload Profiling:
 	ReloadAssembly (981ms)
+
 		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+
 			CreateAndSetChildDomain (30ms)
 		EndReloadAssembly (796ms)
 			LoadAssemblies (98ms)
@@ -5710,12 +5713,15 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (87ms)
 				ProcessInitializeOnLoadAttributes (196ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
+
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
+
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
@@ -5723,6 +5729,7 @@ System memory in use after: 80.3 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2368.
 Total: 3.124500 ms (FindLiveObjects: 0.151000 ms CreateObjectMapping: 0.050000 ms MarkObjects: 2.618400 ms  DeleteObjects: 0.304200 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -5737,11 +5744,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002638 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -5774,13 +5784,16 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2371.
 Total: 4.205300 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.058700 ms MarkObjects: 3.584200 ms  DeleteObjects: 0.380100 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -5795,11 +5808,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002952 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -5832,13 +5848,16 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2374.
 Total: 3.289300 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.058500 ms MarkObjects: 2.627200 ms  DeleteObjects: 0.429300 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -5851,13 +5870,22 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 1454.434933 seconds.
+  path: Assets/Scripts/TileTypes/WeakBridge.cs
+  artifactKey: Guid(ce8ef9b5d12f9194dafac7459dde3e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TileTypes/WeakBridge.cs using Guid(ce8ef9b5d12f9194dafac7459dde3e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a4595e28e552f1bacb2fa0f967b92b') in 0.008666 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002694 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -5890,13 +5918,16 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2377.
 Total: 3.447800 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.051800 ms MarkObjects: 2.782300 ms  DeleteObjects: 0.435700 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -5910,29 +5941,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+
   Time since last request: 1454.434933 seconds.
   path: Assets/Scripts/TileTypes/WeakBridge.cs
   artifactKey: Guid(ce8ef9b5d12f9194dafac7459dde3e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/TileTypes/WeakBridge.cs using Guid(ce8ef9b5d12f9194dafac7459dde3e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a4595e28e552f1bacb2fa0f967b92b') in 0.008666 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002802 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.979 seconds
 Domain Reload Profiling:
 	ReloadAssembly (979ms)
+
 		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+
 			CreateAndSetChildDomain (31ms)
 		EndReloadAssembly (814ms)
 			LoadAssemblies (93ms)
@@ -5948,11 +5980,13 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (88ms)
 				ProcessInitializeOnLoadAttributes (210ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
+
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
+
 Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1686 Unused Serialized files (Serialized files now loaded: 0)
@@ -5961,6 +5995,7 @@ System memory in use after: 80.3 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2380.
 Total: 3.061500 ms (FindLiveObjects: 0.159600 ms CreateObjectMapping: 0.056500 ms MarkObjects: 2.505000 ms  DeleteObjects: 0.339800 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -5974,42 +6009,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+
   Time since last request: 7.812533 seconds.
   path: Assets/Scripts/TileTypes/WeakBridge.cs
   artifactKey: Guid(ce8ef9b5d12f9194dafac7459dde3e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/TileTypes/WeakBridge.cs using Guid(ce8ef9b5d12f9194dafac7459dde3e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7089abdada395b4690d38bf7c825c9cc') in 0.006958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Scripts/TileTypes/RTerrain.cs
-  artifactKey: Guid(e4e79deb4c3dcea499f7f5aa124c0902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TileTypes/RTerrain.cs using Guid(e4e79deb4c3dcea499f7f5aa124c0902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b86994522170f23a6d6532187075b1') in 0.007462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.062965 seconds.
-  path: Assets/Scripts/TileTypes/Path.cs
-  artifactKey: Guid(c59af373a61449f4ea011096de2d3591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TileTypes/Path.cs using Guid(c59af373a61449f4ea011096de2d3591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a3e3136ccb8cbc73e80889fbdc503d') in 0.006932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.449958 seconds.
-  path: Assets/Scripts/TileTypes/RightBridge.cs
-  artifactKey: Guid(cf745bcf2085f83418050fccb8732d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TileTypes/RightBridge.cs using Guid(cf745bcf2085f83418050fccb8732d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a10a91ad3ef16965c2447878e9b768') in 0.007797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.677618 seconds.
-  path: Assets/Scripts/TileTypes/DebuffedForest.cs
-  artifactKey: Guid(08f6cfc2872306047ad5aa48b4717e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TileTypes/DebuffedForest.cs using Guid(08f6cfc2872306047ad5aa48b4717e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb25f877e098278fa734a8e37c1163a7') in 0.006167 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002622 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6042,10 +6052,12 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
+
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2381.
 Total: 2.868000 ms (FindLiveObjects: 0.136200 ms CreateObjectMapping: 0.055100 ms MarkObjects: 2.377100 ms  DeleteObjects: 0.299000 ms)
@@ -6075,11 +6087,14 @@ Start importing Assets/Scripts/TileTypes/Bridge.cs using Guid(38b6582bab6602c479
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002880 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6105,20 +6120,25 @@ Domain Reload Profiling:
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (89ms)
 				ProcessInitializeOnLoadAttributes (187ms)
+
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
+
 Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2384.
 Total: 3.223500 ms (FindLiveObjects: 0.157400 ms CreateObjectMapping: 0.047300 ms MarkObjects: 2.670300 ms  DeleteObjects: 0.347900 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -6133,11 +6153,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.003657 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6170,13 +6193,16 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2387.
 Total: 3.464700 ms (FindLiveObjects: 0.165300 ms CreateObjectMapping: 0.048700 ms MarkObjects: 2.902800 ms  DeleteObjects: 0.347100 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -6191,11 +6217,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002808 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6203,11 +6232,13 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1417ms)
 		BeginReloadAssembly (135ms)
+
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (41ms)
+
 		EndReloadAssembly (1207ms)
 			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -6228,13 +6259,16 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2390.
 Total: 4.219500 ms (FindLiveObjects: 0.217600 ms CreateObjectMapping: 0.068200 ms MarkObjects: 3.520600 ms  DeleteObjects: 0.412200 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -6249,11 +6283,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.003638 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6273,19 +6310,24 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (62ms)
 			SetupLoadedEditorAssemblies (407ms)
+
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
+
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (115ms)
 				ProcessInitializeOnLoadAttributes (265ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (7ms)
+
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
+
 Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
@@ -6293,6 +6335,7 @@ System memory in use after: 80.3 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2393.
 Total: 4.877000 ms (FindLiveObjects: 0.191900 ms CreateObjectMapping: 0.066200 ms MarkObjects: 4.244400 ms  DeleteObjects: 0.373200 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -6307,11 +6350,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002696 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6319,10 +6365,12 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1127ms)
 		BeginReloadAssembly (121ms)
+
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+
 			CreateAndSetChildDomain (36ms)
 		EndReloadAssembly (944ms)
 			LoadAssemblies (97ms)
@@ -6344,13 +6392,16 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2396.
 Total: 4.668800 ms (FindLiveObjects: 0.192100 ms CreateObjectMapping: 0.060100 ms MarkObjects: 4.041100 ms  DeleteObjects: 0.374500 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -6365,11 +6416,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002878 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6396,19 +6450,24 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (85ms)
 				ProcessInitializeOnLoadAttributes (185ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
+
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
+
 Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2399.
 Total: 3.050200 ms (FindLiveObjects: 0.164300 ms CreateObjectMapping: 0.048400 ms MarkObjects: 2.528000 ms  DeleteObjects: 0.308700 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -6423,11 +6482,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002653 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6460,6 +6522,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
@@ -6467,6 +6530,7 @@ System memory in use after: 80.3 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2402.
 Total: 3.001500 ms (FindLiveObjects: 0.161800 ms CreateObjectMapping: 0.048400 ms MarkObjects: 2.489700 ms  DeleteObjects: 0.301000 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -6481,11 +6545,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002786 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6493,10 +6560,12 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1180ms)
 		BeginReloadAssembly (120ms)
+
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+
 			CreateAndSetChildDomain (36ms)
 		EndReloadAssembly (997ms)
 			LoadAssemblies (96ms)
@@ -6513,18 +6582,23 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (261ms)
 				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (7ms)
+
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
+
 Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2405.
 Total: 4.902500 ms (FindLiveObjects: 0.227900 ms CreateObjectMapping: 0.105400 ms MarkObjects: 4.139400 ms  DeleteObjects: 0.428900 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -6539,11 +6613,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002819 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6551,10 +6628,12 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1000ms)
 		BeginReloadAssembly (114ms)
+
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+
 			CreateAndSetChildDomain (30ms)
 		EndReloadAssembly (824ms)
 			LoadAssemblies (103ms)
@@ -6570,6 +6649,7 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (93ms)
 				ProcessInitializeOnLoadAttributes (201ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
+
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -6584,6 +6664,7 @@ System memory in use after: 80.3 MB.
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2408.
 Total: 3.273600 ms (FindLiveObjects: 0.165300 ms CreateObjectMapping: 0.054800 ms MarkObjects: 2.742200 ms  DeleteObjects: 0.310500 ms)
 
+
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -6597,7 +6678,9 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002622 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
@@ -6605,6 +6688,7 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+
 - Completed reload, in  0.961 seconds
 Domain Reload Profiling:
 	ReloadAssembly (962ms)
@@ -6621,12 +6705,15 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (48ms)
 			SetupLoadedEditorAssemblies (303ms)
+
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
+
 				BeforeProcessingInitializeOnLoad (90ms)
 				ProcessInitializeOnLoadAttributes (191ms)
+
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -6639,8 +6726,10 @@ Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2411.
 Total: 3.212400 ms (FindLiveObjects: 0.159800 ms CreateObjectMapping: 0.049900 ms MarkObjects: 2.693900 ms  DeleteObjects: 0.308100 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -6655,11 +6744,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002525 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6667,11 +6759,13 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (916ms)
 		BeginReloadAssembly (111ms)
+
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (30ms)
+
 		EndReloadAssembly (748ms)
 			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -6687,18 +6781,23 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (185ms)
 				ProcessInitializeOnLoadMethodAttributes (8ms)
 				AfterProcessingInitializeOnLoad (6ms)
+
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
+
 Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1684 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 80.9 MB.
 System memory in use after: 80.3 MB.
 
+
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2414.
 Total: 3.330000 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.776400 ms  DeleteObjects: 0.345000 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -6713,11 +6812,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
+
 Registered in 0.002678 seconds.
+
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\rehao\Documents\GitHub\hackathon\Hackathon\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+
 Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -6757,6 +6859,7 @@ System memory in use after: 80.3 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2417.
 Total: 3.508200 ms (FindLiveObjects: 0.667000 ms CreateObjectMapping: 0.123900 ms MarkObjects: 2.382600 ms  DeleteObjects: 0.333300 ms)
+
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
