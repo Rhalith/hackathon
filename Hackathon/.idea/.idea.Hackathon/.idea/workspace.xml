@@ -2,8 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ef8a013-78ea-4852-bcfb-990738586e40" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hackathon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hackathon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox_Close.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox_Close.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox_Close.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox_Close.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox_Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox_Open.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox_Open.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/animations/DialogueBox_Open.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/scripts/Dialogue.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/scripts/Dialogue.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/scripts/DialogueManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/scripts/DialogueManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/scripts/DialogueTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/scripts/DialogueTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/scripts/DialogueTrigger.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/scripts/DialogueTrigger.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dialogue/scripts/ForCall.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dialogue/scripts/ForCall.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Master.mixer" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenu/Master.mixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainMenu/Master.mixer.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainMenu/Master.mixer.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Bridge.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Bridge.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Cave.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Cave.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/HForest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/HForest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/HRiver.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/HRiver.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Hole.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Hole.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/IcedRiver.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/IcedRiver.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/LForest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/LForest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/LRiver.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/LRiver.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Mountain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Mountain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Path.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Path.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/RTerrain.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/RTerrain.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Victim.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/Victim.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/WeakBridge.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TileTypes/WeakBridge.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prologue/charactercam.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prologue/charactercam.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prologue/charactercam.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prologue/charactercam.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prologue/coming.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prologue/coming.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prologue/coming.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prologue/coming.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestForDragDrop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestForDragDrop.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestForDragDrop.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestForDragDrop.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileTypes/Hole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TileTypes/Hole.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileTypes/LRiver.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TileTypes/LRiver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileTypes/WeakBridge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TileTypes/WeakBridge.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/DontDestroyOnSelectedScenes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/DontDestroyOnSelectedScenes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/MenuDirector.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/MenuDirector.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/SoundController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/SoundController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/test/DragDrop.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/test/DragDrop.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripts/test/ItemSlot.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripts/test/ItemSlot.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +119,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/LastHours\LastHours.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\rehao\Desktop\LastHours" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -58,7 +157,9 @@
       <option name="presentableId" value="Default" />
       <updated>1650678290783</updated>
       <workItem from="1650678294558" duration="1252000" />
-      <workItem from="1650688918884" duration="11774000" />
+      <workItem from="1650688918884" duration="16674000" />
+      <workItem from="1650783774797" duration="16682000" />
+      <workItem from="1650830325685" duration="29000" />
     </task>
     <servers />
   </component>

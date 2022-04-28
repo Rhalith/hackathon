@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraAnimation : MonoBehaviour
 {
@@ -9,6 +11,14 @@ public class CameraAnimation : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        if (tableCamera.activeInHierarchy)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 
     public void CameraChanger()
